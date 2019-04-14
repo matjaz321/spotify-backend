@@ -1,0 +1,24 @@
+{
+  "name": "spotify-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js --exec babel-node --"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "firebase": "^5.9.4",
+    "qs": "^6.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
